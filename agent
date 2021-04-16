@@ -1,0 +1,10 @@
+my_agent = MyAgent(alpha=0.9, epsilon=0.1) 
+random_agent = RandomAgent()
+
+ 
+train_and_plot(
+    agent=my_agent,
+    validation_agent=random_agent,
+    iterations=50,
+    trainings=100,
+    validations=1000)
